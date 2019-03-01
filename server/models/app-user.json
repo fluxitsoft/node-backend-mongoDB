@@ -1,0 +1,23 @@
+{
+    "name": "AppUser",
+    "base": "User",
+    "strict": false,
+    "idInjection": true,
+    "options": {
+        "validateUpsert": true
+    },
+    "properties": {
+    },
+    "validations": [],
+    "relations": {
+    },
+    "acls": [
+        {
+            "accessType": "EXECUTE",
+            "principalType": "ROLE",
+            "principalId": "$everyone",
+            "permission": "ALLOW"
+        }
+    ],
+    "methods": {}
+}
